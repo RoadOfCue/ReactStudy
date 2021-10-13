@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+body{
+    background: #cdcdcd;
+}
+
+.bg {
+    background: #2f2f2ffa;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-wrapper{
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+    color: #ddd;
+    font-size: 24px;
+}
+
+#addInput{
+    width: 60%;
+    height: 24px;
+    margin-top: 12px;
+    text-indent: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 24%), 0 1px 6px rgb(0 0 0 / 45%) inset;
+    border: none;
+    padding: 1px 2px;
+}
+
+#addInput:focus{
+    outline: none;
+}
+
+.list-wrapper{
+    padding: 0 10px;
+}
+
+h2{
+    margin: 20px 0;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count{
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+.list{
+    display: flex;
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%);
+    cursor: move;
+}
+
+.list-done{
+    border-left: 5px solid #999;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.checkInput{
+    width: 22px;
+    height: 22px;
+    margin: auto 8px;
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskSpan{
+    display: inline-block;
+    width: 400px;
+}
+
+.taskSpan input{
+    position: relative;
+    top: -2px;
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    padding: 3px 8px;
+}
+
+.taskSpan input:focus{
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.deleteSpan{
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    margin: auto 0;
+    border-radius: 14px;
+    border: 6px double #FFF;
+    background: #CCC;
+    line-height: 14px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer{
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .clearSpan{
+    text-decoration: none;
+    color: #999;
+    cursor: pointer;
+}
